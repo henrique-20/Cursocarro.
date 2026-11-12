@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dirija com Confiança: Guia Prático para Aprender a Dirigir</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4faf6;--soft:#e1f3e8;--card:#fff;--line:#cde6d6;--ink:#0f2a1c;--muted:#52705e;--acc:#0f8a45;--acc-d:#0b6b36;--on-acc:#fff;--red:#c62f2f;--foot:#0f2a1c;--foot-t:#e4f3ea;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1a12;--soft:#10261a;--card:#132d1f;--line:#21472f;--ink:#e8f7ee;--muted:#9cbfa9;--acc:#3ddc84;--acc-d:#6fe6a3;--on-acc:#06210f;--foot:#07120c}}
+:root[data-theme="dark"]{--bg:#0a1a12;--soft:#10261a;--card:#132d1f;--line:#21472f;--ink:#e8f7ee;--muted:#9cbfa9;--acc:#3ddc84;--acc-d:#6fe6a3;--on-acc:#06210f;--foot:#07120c}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.5;-webkit-text-size-adjust:100%}
+.wrap{max-width:480px;margin:0 auto;padding:0 20px}
+section{padding:44px 0}.alt{background:var(--soft)}
+h1,h2,h3{line-height:1.1;margin:0;letter-spacing:-.02em}
+h1{font-size:2.05rem;font-weight:800;text-align:center}h2{font-size:1.65rem;font-weight:800;text-align:center}
+.g{color:var(--acc)}.sub{text-align:center;color:var(--muted);margin:14px 0 0}
+.top{background:var(--red);color:#fff;text-align:center;font-weight:800;font-size:.88rem;padding:11px}
+.pill{display:block;width:fit-content;max-width:100%;text-align:center;margin:12px auto 0;background:var(--soft);border:1px solid var(--line);border-radius:99px;padding:7px 16px;font-size:.85rem;font-weight:700}
+.btn{display:block;text-align:center;text-decoration:none;font-weight:800;font-size:1.05rem;padding:17px 20px;border-radius:99px;background:var(--acc);color:var(--on-acc);box-shadow:0 6px 18px rgba(15,138,69,.35);margin-top:26px}
+.btn.off{background:var(--muted);box-shadow:none;pointer-events:none}
+.micro{text-align:center;color:var(--muted);font-size:.82rem;margin-top:12px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:26px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 6px;text-align:center;font-size:.78rem;color:var(--muted)}
+.stat b{display:block;font-size:1.5rem;color:var(--acc-d);font-weight:800}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:20px;margin-top:16px}
+.card h3{font-size:1.1rem;margin-bottom:10px}
+ul{list-style:none;margin:0;padding:0}li{padding:7px 0 7px 26px;position:relative;font-size:.95rem}
+li::before{content:"✓";position:absolute;left:0;color:var(--acc);font-weight:800}
+.steps{counter-reset:s;margin-top:20px}.steps li{padding:14px 0 14px 54px;border-bottom:1px solid var(--line)}
+.steps li:last-child{border:0}.steps li::before{counter-increment:s;content:counter(s);width:36px;height:36px;border-radius:50%;background:var(--acc);color:var(--on-acc);display:flex;align-items:center;justify-content:center;font-weight:800;left:0;top:11px}
+.steps b{display:block}
+.mod{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}.mod:last-child{border:0}
+.mod i{flex:none;width:34px;height:34px;border-radius:12px;background:var(--soft);color:var(--acc-d);font-style:normal;font-weight:800;display:flex;align-items:center;justify-content:center}
+.mod b{display:block;font-size:.97rem}.mod span{font-size:.86rem;color:var(--muted)}
+.chk{background:var(--bg);border:1px dashed var(--acc);border-radius:16px;padding:14px 16px}
+.chk div{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:.92rem}.chk div:last-child{border:0}
+.chk div::before{content:"☑";color:var(--acc)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}.two .card{margin:0;padding:16px}.two h3{font-size:.95rem}.two li{font-size:.85rem;padding-left:22px}
+.timer{background:linear-gradient(160deg,#d94141,#a82424);color:#fff;border-radius:26px;padding:22px 16px;text-align:center;box-shadow:0 10px 26px rgba(198,47,47,.35)}
+.timer .t{font-weight:800;letter-spacing:.06em;font-size:.82rem}
+.cd{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:14px}
+.cd div{background:rgba(0,0,0,.2);border-radius:16px;padding:12px 0}
+.cd b{display:block;font-size:1.9rem;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
+.cd span{font-size:.65rem;letter-spacing:.08em;opacity:.85}
+.plan{background:var(--card);border:2px solid var(--acc);border-radius:26px;padding:28px 20px 24px;margin-top:22px;position:relative}
+.tag{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--acc);color:var(--on-acc);font-weight:800;font-size:.75rem;border-radius:99px;padding:4px 14px;white-space:nowrap}
+.plan h3{text-align:center;font-size:1.25rem}.plan .d{text-align:center;color:var(--muted);font-size:.9rem;margin:4px 0 14px}
+.price{text-align:center;font-size:3.4rem;font-weight:800;line-height:1}.price small{font-size:1.4rem;margin-right:4px}
+.once{text-align:center;color:var(--muted);font-size:.85rem;margin:6px 0 14px}
+.note{background:var(--soft);border:1px solid var(--line);border-radius:18px;padding:14px 16px;font-size:.86rem;color:var(--muted);margin-top:18px}
+details{background:var(--bg);border:1px solid var(--line);border-radius:18px;padding:16px 18px;margin-top:10px}
+summary{font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:10px}
+summary::after{content:"+";font-size:1.3rem;line-height:1;color:var(--acc-d);transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{margin:10px 0 0;color:var(--muted);font-size:.93rem}
+footer{background:var(--foot);color:var(--foot-t);padding:30px 0 110px;font-size:.8rem;text-align:center}
+footer p{margin:6px 0;opacity:.85}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--card);border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));display:flex;align-items:center;justify-content:space-between;gap:12px;transform:translateY(110%);transition:transform .25s}
+.sticky.show{transform:none}.sticky .p{font-weight:800;font-size:1.2rem;line-height:1.1}.sticky .p small{display:block;font-size:.7rem;color:var(--muted);font-weight:500}
+.sticky .btn{margin:0;padding:13px 22px;font-size:.95rem;box-shadow:none}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.sticky{transition:none}}
+</style>
+</head>
+<body>
+<div class="top" id="topbar">🔥 OFERTA DE LANÇAMENTO</div>
+
+<header><div class="wrap" style="padding-top:28px">
+<span class="pill">Guia em PDF para todas as idades</span>
+<h1 style="margin-top:22px">Aprenda a dirigir com <span class="g">segurança</span> e perca o medo do trânsito.</h1>
+<p class="sub" style="font-size:1.05rem">Um passo a passo simples para quem vai começar a autoescola, tirou a CNH e ainda tem medo, ou quer mais confiança ao volante.</p>
+<a class="btn" id="herobtn" href="#plano">QUERO ACESSO AGORA</a>
+<p class="micro">Acesso imediato · Pagamento seguro</p>
+</div></header>
+
+<section><div class="wrap">
+<h2>Isso acontece com <span class="g">você</span>?</h2>
+<div class="card"><ul>
+<li>Tem medo de dirigir e evita pegar o carro</li>
+<li>O carro “morre” toda vez que você solta a embreagem</li>
+<li>Trava na hora da baliza ou de uma ladeira</li>
+<li>Vai começar a autoescola e quer chegar preparado</li>
+<li>Tirou a CNH, mas não se sente seguro no trânsito</li>
+</ul></div></div></section>
+
+<section class="alt"><div class="wrap">
+<h2>Como <span class="g">funciona</span></h2>
+<ul class="steps card">
+<li><b>Você garante o acesso</b>Pagamento único e seguro.</li>
+<li><b>Recebe o PDF por e-mail</b>Na mesma hora, sem esperar.</li>
+<li><b>Estuda e pratica</b>Leia no celular e treine com seu instrutor ou com um motorista habilitado.</li>
+</ul></div></section>
+
+<section><div class="wrap">
+<h2>O que você vai <span class="g">aprender</span></h2>
+<p class="sub">6 módulos diretos, com linguagem simples e passo a passo.</p>
+<div class="stats"><div class="stat"><b>6</b>módulos</div><div class="stat"><b>3</b>checklists</div><div class="stat"><b>7</b>dias de treino</div></div>
+<div class="card">
+<div class="mod"><i>1</i><div><b>Conheça o carro</b><span>Painel, comandos e o que cada luz quer dizer.</span></div></div>
+<div class="mod"><i>2</i><div><b>Antes de ligar</b><span>Banco, retrovisores, cinto e posição das mãos.</span></div></div>
+<div class="mod"><i>3</i><div><b>Pedais e câmbio</b><span>Como usar a embreagem sem o carro morrer, no manual e no automático.</span></div></div>
+<div class="mod"><i>4</i><div><b>Arrancada, rampa e freada</b><span>Saia do lugar e pare com suavidade.</span></div></div>
+<div class="mod"><i>5</i><div><b>Baliza e manobras</b><span>Passo a passo, com pontos de referência.</span></div></div>
+<div class="mod"><i>6</i><div><b>Direção defensiva</b><span>Como se manter calmo e atento no trânsito.</span></div></div>
+</div></div></section>
+
+<section class="alt"><div class="wrap">
+<h2>Veja como é <span class="g">por dentro</span></h2>
+<p class="sub">Exemplo do Módulo 2: o checklist para fazer antes de ligar o carro.</p>
+<div class="card"><div class="chk">
+<div>Banco ajustado para alcançar os pedais sem esticar a perna</div>
+<div>Retrovisores regulados para você ver bem atrás</div>
+<div>Cinto de segurança afivelado</div>
+<div>Câmbio em ponto morto ou em P, e freio de mão puxado</div>
+</div>
+<p class="micro" style="text-align:left">Exemplo ilustrativo. No guia você recebe o checklist completo.</p></div>
+<div class="two">
+<div class="card"><h3>É pra você se…</h3><ul><li>Quer aprender a teoria antes da autoescola</li><li>Vai fazer autoescola</li><li>Tem CNH e medo de dirigir</li></ul></div>
+<div class="card"><h3>Importante</h3><ul><li>Para dirigir é preciso ter 18 anos e CNH</li><li>Não substitui as aulas</li><li>Pratique só com instrutor ou habilitado</li></ul></div>
+</div></div></section>
+
+<section id="plano"><div class="wrap">
+<div class="timer"><div class="t" id="tlabel">ESSA OFERTA EXPIRA EM:</div>
+<div class="cd"><div><b id="d">00</b><span>DIAS</span></div><div><b id="h">00</b><span>HORAS</span></div><div><b id="m">00</b><span>MIN</span></div><div><b id="s">00</b><span>SEG</span></div></div></div>
+<h2 style="margin-top:30px">Garanta seu <span class="g">acesso</span></h2>
+<p class="sub">Preço promocional de lançamento, com pagamento único.</p>
+<div class="plan"><span class="tag">PROMOÇÃO DE LANÇAMENTO</span><h3>Guia completo</h3><p class="d">Guia + checklists + plano de treino</p>
+<div class="price"><small>R$</small>17,90</div><p class="once">pagamento único · <span id="pdate">preço promocional</span></p>
+<ul><li>Guia em PDF com os 6 módulos</li><li>3 checklists para imprimir ou salvar no celular</li><li>Plano de treino de 7 dias</li><li>Guia rápido das luzes do painel</li><li>Acesso imediato por e-mail</li></ul>
+<a class="btn buy" id="buy" href="#plano">QUERO APROVEITAR A PROMOÇÃO</a>
+<p class="micro">Acesso imediato no seu e-mail</p></div>
+<p class="micro">Conteúdo educacional para todas as idades. Para dirigir é preciso ter 18 anos e CNH.</p>
+</div></section>
+
+<section class="alt"><div class="wrap">
+<h2>Ficou com alguma <span class="g">dúvida?</span></h2>
+<details><summary>Serve para quem ainda não tem CNH?</summary><p>Serve para se preparar antes e durante a autoescola. A prática no carro deve ser feita apenas com instrutor ou com um motorista habilitado, como manda a lei.</p></details>
+<details><summary>Substitui a autoescola?</summary><p>Não. O guia é um complemento para você chegar mais seguro e entender melhor o que o instrutor ensina.</p></details>
+<details><summary>Qual a idade para usar o guia?</summary><p>O guia pode ser lido por qualquer pessoa, mas para dirigir no trânsito é preciso ter 18 anos e CNH. Antes disso, ele serve para aprender a teoria.</p></details>
+<details><summary>Serve para carro manual e automático?</summary><p>Sim. O módulo de pedais e câmbio explica os dois.</p></details>
+<details><summary>Garante que vou passar na prova?</summary><p>Não. O guia ajuda no preparo, mas a aprovação depende da sua prática e do exame.</p></details>
+<details><summary>Em que formato vem o material?</summary><p>PDF para ler no celular ou imprimir. Você recebe o acesso por e-mail logo após a confirmação do pagamento.</p></details>
+<details><summary>Como funciona o pagamento?</summary><p>Pagamento único e seguro, em ambiente de pagamento protegido. Sem mensalidade.</p></details>
+<a class="btn buy" href="#plano">QUERO COMEÇAR AGORA</a>
+</div></section>
+
+<footer><div class="wrap">
+<p>Produto digital de caráter educacional.</p>
+<p>Os resultados dependem da prática e da aplicação do conteúdo por cada pessoa.</p>
+<p>© 2026 · Todos os direitos reservados</p>
+</div></footer>
+
+<div class="sticky" id="sticky"><div class="p"><small>Preço promocional</small>R$ 17,90</div><a class="btn buy" href="#plano">QUERO O GUIA</a></div>
+
+<script>
+/* Data e hora reais em que a oferta termina. Altere aqui e só mantenha se for cumprir. */
+var END_AT = new Date('2026-11-16T23:59:59-03:00').getTime();
+function pad(n){return n<10?'0'+n:''+n}
+var ed=new Date(END_AT);
+document.getElementById('topbar').textContent='🔥 OFERTA DE LANÇAMENTO ACABA EM '+pad(ed.getDate())+'/'+pad(ed.getMonth()+1);
+function tick(){
+  var diff=END_AT-Date.now();
+  if(diff<=0){
+    ['d','h','m','s'].forEach(function(i){document.getElementById(i).textContent='00'});
+    document.getElementById('tlabel').textContent='OFERTA ENCERRADA';
+    document.getElementById('topbar').textContent='Oferta de lançamento encerrada';
+    document.querySelectorAll('.buy').forEach(function(b){b.classList.add('off');b.textContent='OFERTA ENCERRADA'});
+    return;
+  }
+  var t=Math.floor(diff/1000);
+  document.getElementById('d').textContent=pad(Math.floor(t/86400));
+  document.getElementById('h').textContent=pad(Math.floor(t%86400/3600));
+  document.getElementById('m').textContent=pad(Math.floor(t%3600/60));
+  document.getElementById('s').textContent=pad(t%60);
+  setTimeout(tick,1000);
+}
+tick();
+/* Link de pagamento: cole entre as aspas. Sem link, o botão só rola a página. */
+var LINK='';
+document.getElementById('buy').href=LINK||'#plano';
+document.getElementById('pdate').textContent='promoção até '+pad(ed.getDate())+'/'+pad(ed.getMonth()+1);
+/* Barra fixa: aparece depois do primeiro botão e some quando o plano está na tela */
+(function(){
+  if(!('IntersectionObserver' in window))return;
+  var st=document.getElementById('sticky'),hero=false,plan=false;
+  function upd(){st.classList.toggle('show',!hero&&!plan&&window.scrollY>200)}
+  new IntersectionObserver(function(e){hero=e[0].isIntersecting;upd()}).observe(document.getElementById('herobtn'));
+  new IntersectionObserver(function(e){plan=e[0].isIntersecting;upd()}).observe(document.getElementById('plano'));
+  addEventListener('scroll',upd,{passive:true});
+})();
+</script>
+</body>
+</html>
